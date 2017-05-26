@@ -1,0 +1,20 @@
+{
+  "data" : [
+    {
+      "id" : "function-wave_legacy",
+      "type" : "function",
+      "name" : "wave_legacy"
+    },
+    {
+      "id" : "template-{reply}",
+      "type" : "template",
+      "template" : "{reply}",
+      "requirements" : [
+        {
+          "name" : "reply",
+          "negative" : false
+        }
+      ]
+    }
+  ]
+}
