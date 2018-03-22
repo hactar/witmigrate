@@ -18,7 +18,7 @@ For more information on how to download the required json file from the legacy A
 1. Download the individual intents GET https://api.wit.ai/intents/$INTENT_ID and store them under Input/Intents/INTENTNAME.json
 1. Download the individual entities from https://wit.ai/docs/http/20170307#get--entities-:entity-id-link and store them under Input/Entities/ENTITYNAME.json
 1. Copy over the acions.json and operations_stub into the Input folder.
-1. Install the Swift package manager dependencies via `swift package generate-xcodepro`
+1. Install the Swift package manager dependencies via `swift package generate-xcodeproj`
 1. Compile witmigrate
 1. Run `witmigrate generate PATHTOINPUTFOLDER`
 1. Run `zip outputFolder.zip outputFolder/app.json outputFolder/entities/*.json outputFolder/actions.json outputFolder/stories.json outputFolder/expressions.json` to create the zip folder
